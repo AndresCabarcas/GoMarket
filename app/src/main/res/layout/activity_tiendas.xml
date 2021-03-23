@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="10dp">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/nitEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIT"
+            android:gravity="right"
+            android:layout_marginRight="70dp"/>
+        <TextView
+            android:id="@+id/Nombre"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_toEndOf="@+id/nitEmpresa"
+            android:layout_toRightOf="@+id/nitEmpresa"
+            android:text="Nombre"/>
+        <ImageView
+            android:id="@+id/eliminar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="141dp"
+            android:layout_marginLeft="141dp"
+            android:layout_toEndOf="@+id/nitEmpresa"
+            android:layout_toRightOf="@+id/nitEmpresa"
+            android:src="@drawable/delete"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
